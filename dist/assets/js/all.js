@@ -2,6 +2,6 @@
 
 console.log('Hello!');
 $(document).ready(function () {
-  console.log('HesSchool Hello!');
+  console.log('我是最強的');
 });
 //# sourceMappingURL=all.js.map
