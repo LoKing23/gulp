@@ -54,7 +54,9 @@ a {
   color: #fff; }
 
 .container {
-  max-width: 1110px;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -272,8 +274,80 @@ a {
         width: 36px;
         height: 36px; } }
 
-* {
-  outline: #000 solid 1px; }
+.joint-name {
+  height: 705px;
+  background: url(../images/week3/bg.png) no-repeat center; }
+  @media (max-width: 768px) {
+    .joint-name {
+      height: 452px;
+      width: 768px; } }
+  @media (max-width: 375px) {
+    .joint-name {
+      width: 375px;
+      height: 719px; } }
+  .joint-name h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold; }
+    @media (max-width: 768px) {
+      .joint-name h2 {
+        font-size: 32px; } }
+    @media (max-width: 375px) {
+      .joint-name h2 {
+        font-size: 20px; } }
+  .joint-name__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (max-width: 375px) {
+      .joint-name__nav {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
+    .joint-name__nav li {
+      padding-left: 15px;
+      padding-right: 15px; }
+      @media (max-width: 768px) {
+        .joint-name__nav li {
+          margin-bottom: 16px; } }
+    .joint-name__nav__bg {
+      width: 540px;
+      height: 455px; }
+      @media (max-width: 768px) {
+        .joint-name__nav__bg {
+          width: 330px;
+          height: 278px; } }
+      @media (max-width: 375px) {
+        .joint-name__nav__bg {
+          width: 345px;
+          height: 291px; } }
+    .joint-name__nav__bg1 {
+      background: url(../images/week3/product-8.png) no-repeat center;
+      background-size: 100%; }
+    .joint-name__nav__bg2 {
+      background: url(../images/week3/product-9.png) no-repeat center;
+      background-size: 100%;
+      overflow: hidden; }
+    .joint-name__nav__text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #AA0601;
+      font-size: 72px;
+      font-weight: bold; }
+      @media (max-width: 768px) {
+        .joint-name__nav__text {
+          font-size: 32px; } }
 
 .header {
   display: -webkit-box;
