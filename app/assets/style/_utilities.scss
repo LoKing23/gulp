@@ -33,6 +33,19 @@
     margin-bottom: 32px;
   }
 }
+.mb-3-2-1-rwd{
+  margin-bottom: 24px;
+  @media(max-width:768px){
+    margin-bottom: 16px;
+  }
+  @media(max-width:375px){
+    margin-bottom: 8px;
+  }
+}
+.ml-r-0{
+  margin-left: auto;
+  margin-right: auto;
+}
 .mb-0-mobile{
   @media(max-width:375px){
     margin-bottom: 0;
@@ -49,4 +62,7 @@
 }
 .gray{
   color: #707070;
+}
+.inline{
+  display: inline;
 }
