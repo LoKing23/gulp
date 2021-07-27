@@ -459,6 +459,10 @@ a {
         @media (max-width: 768px) {
           .contact-us__form li textarea {
             height: 100px; } }
+    .contact-us__form__checkbox {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
     .contact-us__form__btn {
       color: #fff;
       background-color: #AA0601;

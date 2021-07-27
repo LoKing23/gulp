@@ -401,6 +401,9 @@
       }
     }
 
+    &__checkbox{
+      display: flex;
+    }
     &__btn{
       color: $light;
       background-color: $dark_background;
