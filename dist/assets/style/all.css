@@ -70,7 +70,7 @@ a {
 
 .banner {
   height: 840px;
-  background: url(assets/images/week3/banner.png) center no-repeat;
+  background: url(../images/week3/banner.png) center no-repeat;
   padding-top: 348px;
   padding-right: 20%; }
   @media (max-width: 768px) {
